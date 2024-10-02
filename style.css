@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    gap : 2px; 
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1;
+    gap : 2px;
+    
+}
+
+.block{
+    background-color: red;
+    flex: 1;
+    
+    /* gap : 16px; */
+}
